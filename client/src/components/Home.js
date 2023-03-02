@@ -1,16 +1,21 @@
 
+import lubbockStar from '../images/lubbock/lubbock-star.jpeg'
+import dallasStar from '../images/dallas/dallas-star.jpeg'
 
 function Home() {
 
     return(
         <>
-            <h1>testing</h1>
-
+            
             <div>
-                <h1>Lubbock</h1>
-            </div>
-            <div>
-                <h1>Dallas</h1>
+                <div>
+                    
+                    <img src={lubbockStar} alt="" ></img>
+                </div>
+                <div>
+                    
+                    <img src={dallasStar} alt="" ></img>
+                </div>
             </div>
         </>
     )
