@@ -9,6 +9,11 @@ import Lubbock from './components/Lubbock';
 import Dallas from './components/Dallas';
 import BaseLayout from './components/BaseLayout';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Guadalupe from './components/jobsites/lubbock/Guadalupe';
+import AdventurePark from './components/jobsites/lubbock/AdventurePark';
+import Umcp from './components/jobsites/lubbock/Umcp';
+import FireStone from './components/jobsites/lubbock/FireStone';
+import N2ec from './components/jobsites/lubbock/N2ec';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,6 +25,11 @@ root.render(
           <Route path='/' element={<Home />} />
           <Route path='/Dallas' element={<Dallas />} />
           <Route path='/Lubbock' element={<Lubbock />} />
+          <Route path='/Lubbock/Guadalupe-Villas' element={<Guadalupe />} />
+          <Route path='/Lubbock/Adventure-Park' element={<AdventurePark />} />
+          <Route path='/Lubbock/UMCP' element={<Umcp />} />
+          <Route path='/Lubbock/Firestone' element={<FireStone />} />
+          <Route path='/Lubbock/N2EC' element={<N2ec />} />
         </Routes>
       </BaseLayout>
     </BrowserRouter>

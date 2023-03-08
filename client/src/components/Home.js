@@ -10,18 +10,18 @@ function Home() {
             
             <div>
                 <div>
-                    <NavLink to='/Lubbock'>
-                        <div>
-                            <img src={lubbockStar} alt="" />
-                        </div>
-                    </NavLink> 
-                </div>
-                <div>
                     <NavLink to='/Dallas'>
                         <div>
-                            <img src={dallasStar} alt="" ></img>
+                            <img width={250} height={250} src={dallasStar} alt="" ></img>
                         </div>
                     </NavLink>
+                </div>
+                <div>
+                    <NavLink to='/Lubbock'>
+                        <div>
+                            <img width={250} height={250} src={lubbockStar} alt="" />
+                        </div>
+                    </NavLink> 
                 </div>
             </div>
         </>
