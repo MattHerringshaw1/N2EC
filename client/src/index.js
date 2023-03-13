@@ -19,6 +19,11 @@ import Orchard from './components/jobsites/lubbock/Orchard';
 import Table82 from './components/jobsites/lubbock/Table82';
 import PeoplesBank from './components/jobsites/lubbock/PeoplesBank';
 import GreatClips from './components/jobsites/lubbock/GreatClips';
+import LasBrisas from './components/jobsites/lubbock/LasBrisas';
+import Dominos from './components/jobsites/lubbock/Dominos';
+import ElMitote from './components/jobsites/lubbock/ElMitote';
+import Milan from './components/jobsites/lubbock/Milan';
+import Tesla from './components/jobsites/lubbock/Tesla';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -40,6 +45,11 @@ root.render(
           <Route path='/Lubbock/Table82' element={<Table82 />} />
           <Route path='/Lubbock/PeoplesBank' element={<PeoplesBank />} />
           <Route path='/Lubbock/GreatClips' element={<GreatClips />} />
+          <Route path='/Lubbock/LasBrisas' element={<LasBrisas />} />
+          <Route path='/Lubbock/DominosPizza' element={<Dominos />} />
+          <Route path='/Lubbock/ElMitote' element={<ElMitote />} />
+          <Route path='/Lubbock/Milan' element={<Milan />} />
+          <Route path='/Lubbock/Tesla' element={<Tesla />} />
         </Routes>
       </BaseLayout>
     </BrowserRouter>
