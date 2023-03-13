@@ -18,6 +18,7 @@ import milan from '../images/lubbock/milan/logo.jpeg'
 import tesla from '../images/lubbock/tesla/logo.jpeg'
 import { NavLink } from 'react-router-dom'
 
+
 import '../styles/lubbock.css'
 
 
