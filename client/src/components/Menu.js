@@ -26,9 +26,9 @@ function Menu() {
               <NavDropdown.Item href="/Lubbock">Lubbock</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="About Us" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/#">Our Team</NavDropdown.Item>
-              <NavDropdown.Item href="/#">Careers</NavDropdown.Item>
-              <NavDropdown.Item href="/#">Contact Us</NavDropdown.Item>
+              <NavDropdown.Item href="/OurTeam">Our Team</NavDropdown.Item>
+              <NavDropdown.Item href="/Careers">Careers</NavDropdown.Item>
+              <NavDropdown.Item href="/ContactUs">Contact Us</NavDropdown.Item>
             </NavDropdown>
           </Nav>
           {/* <Nav className="me-auto">

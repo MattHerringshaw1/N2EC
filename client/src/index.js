@@ -8,6 +8,8 @@ import Home from './components/Home';
 import Lubbock from './components/Lubbock';
 import Dallas from './components/Dallas';
 import BaseLayout from './components/BaseLayout';
+import Careers from './components/Careers';
+import ContactUs from './components/ContactUs';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Guadalupe from './components/jobsites/lubbock/Guadalupe';
 import AdventurePark from './components/jobsites/lubbock/AdventurePark';
@@ -24,6 +26,7 @@ import Dominos from './components/jobsites/lubbock/Dominos';
 import ElMitote from './components/jobsites/lubbock/ElMitote';
 import Milan from './components/jobsites/lubbock/Milan';
 import Tesla from './components/jobsites/lubbock/Tesla';
+import OurTeam from './components/OurTeam';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -33,6 +36,9 @@ root.render(
     <BaseLayout>
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/Careers' element={<Careers />} />
+          <Route path='/ContactUs' element={<ContactUs />} />
+          <Route path='/OurTeam' element={<OurTeam />} />
           <Route path='/Dallas' element={<Dallas />} />
           <Route path='/Lubbock' element={<Lubbock />} />
           <Route path='/Lubbock/GuadalupeVillas' element={<Guadalupe />} />
