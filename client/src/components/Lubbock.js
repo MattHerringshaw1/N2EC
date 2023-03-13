@@ -10,6 +10,12 @@ import table82 from '../images/lubbock/table82/logo.jpeg'
 import dispatch from '../images/lubbock/umc-dispatch/logo.jpeg'
 import peoplesBank from '../images/lubbock/peoples-bank/logo.jpeg'
 import greatClips from '../images/lubbock/great-clips/logo.jpeg'
+import lasBrisas from '../images/lubbock/las-brisas/logo.jpeg'
+import dominos from '../images/lubbock/dominos/logo.jpeg'
+import elMitote from '../images/lubbock/el-mitote/logo.jpeg'
+import doubleDaves from '../images/lubbock/double-daves/logo.jpeg'
+import milan from '../images/lubbock/milan/logo.jpeg'
+import tesla from '../images/lubbock/tesla/logo.jpeg'
 import { NavLink } from 'react-router-dom'
 
 import '../styles/lubbock.css'
@@ -80,11 +86,6 @@ function Lubbock() {
                 </NavLink> 
             </div>
             <div >
-                    <div>
-                        <img width={250} height={250} src={dispatch} alt="" />
-                    </div>
-            </div>
-            <div >
                 <NavLink to='/Lubbock/PeoplesBank'>
                     <div>
                         <img width={250} height={250} src={peoplesBank} alt="" />
@@ -97,6 +98,51 @@ function Lubbock() {
                         <img width={250} height={250} src={greatClips} alt="" />
                     </div>
                 </NavLink> 
+            </div>
+            <div >
+                <NavLink to='/Lubbock/LasBrisas'>
+                    <div>
+                        <img width={250} height={250} src={lasBrisas} alt="" />
+                    </div>
+                </NavLink> 
+            </div>
+            <div >
+                <NavLink to='/Lubbock/DominosPizza'>
+                    <div>
+                        <img width={250} height={250} src={dominos} alt="" />
+                    </div>
+                </NavLink> 
+            </div>
+            <div >
+                <NavLink to='/Lubbock/ElMitote'>
+                    <div>
+                        <img width={250} height={250} src={elMitote} alt="" />
+                    </div>
+                </NavLink> 
+            </div>
+            <div >
+                <NavLink to='/Lubbock/Milan'>
+                    <div>
+                        <img width={250} height={250} src={milan} alt="" />
+                    </div>
+                </NavLink> 
+            </div>
+            <div >
+                <NavLink to='/Lubbock/Tesla'>
+                    <div>
+                        <img width={250} height={250} src={tesla} alt="" />
+                    </div>
+                </NavLink> 
+            </div>
+            <div >
+                    <div>
+                        <img width={250} height={250} src={dispatch} alt="" />
+                    </div>
+            </div>
+            <div >
+                    <div>
+                        <img width={250} height={250} src={doubleDaves} alt="" />
+                    </div>
             </div>
         </div>
         </>
