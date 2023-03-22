@@ -27,13 +27,16 @@ import ElMitote from './components/jobsites/lubbock/ElMitote';
 import Milan from './components/jobsites/lubbock/Milan';
 import Tesla from './components/jobsites/lubbock/Tesla';
 import OurTeam from './components/OurTeam';
+import ImgSlider from './components/ImgSlider';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+    
     <BaseLayout>
+    <ImgSlider></ImgSlider>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/Careers' element={<Careers />} />
@@ -58,6 +61,7 @@ root.render(
           <Route path='/Lubbock/Tesla' element={<Tesla />} />
         </Routes>
       </BaseLayout>
+      
     </BrowserRouter>
   </React.StrictMode>
 );
