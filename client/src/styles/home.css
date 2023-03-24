@@ -1,0 +1,65 @@
+.container-home {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+
+  }
+
+.container-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1%;
+    background-color: rgba(116, 114, 125, .6);
+    border-color: red;
+    border-style: solid ;
+    border-width: 3px;
+    border-radius: 10px;
+  }
+
+.text-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+}
+
+.container-jobs {
+    display: flex;
+    flex-direction: row;
+    /* padding: 10%; */
+    
+  }
+
+.box {
+    --s: 250px;   /* the size of the image */
+    --b: 8px;     /* the border thickness*/
+    --g: 14px;    /* the gap */
+    --c: red; /* the color */
+    
+    width: var(--s);
+    aspect-ratio: 1;
+    outline: calc(var(--s)/2) solid rgba(116, 114, 125, 0.6);
+    outline-offset: calc(var(--s)/-2);
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 30px;
+    /* border-radius: 10px; */
+    
+  }
+  .box:hover {
+    outline: var(--b) solid var(--c);
+    outline-offset: var(--g);
+  }
+  
+  .box +  {
+    border-radius: 50%;
+  }
+
+  
+
+  /* .img-home {
+    max-height: fit-content;
+  } */
