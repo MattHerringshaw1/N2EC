@@ -13,7 +13,7 @@ function Home() {
                        
         <div className='container-home'>
             <div className='container-logo'> 
-                <div>
+                <div className='logo-img'>
                     <img width={400} height={250} src={logo} alt=''></img>
                 </div>
                 <div className='text-home'>
@@ -24,14 +24,14 @@ function Home() {
             <div className='container-jobs'>
                 <div className='box'>
                     <NavLink to='/Dallas'>
-                        <div className='img-home'>
+                        <div >
                             <img width={250} height={250} src={dallasStar} alt="" ></img>
                         </div>
                     </NavLink>
                 </div>
                 <div className='box'>
                     <NavLink to='/Lubbock'>
-                        <div className='img-home'>
+                        <div >
                             <img width={250} height={250} src={lubbockStar} alt="" />
                         </div>
                     </NavLink> 
