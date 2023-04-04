@@ -4,23 +4,24 @@ function LasBrisas() {
 
     return(
         <>
-            <div>
-                <div>
-                    <h1>Las Brisas Southwest Steakhouse</h1>
-                </div>
-
-                <div>
+            
+                {/* <div>
                     <ul>
                         <li>Las Brisas Southwest Steakhouse</li>
                         <li>550 S Buchanan Street</li>
                         <li>Amarillo, TX 79101</li>
                     </ul>
-                </div>
+                </div> */}
 
-                <div>
-                    <img width={250} height={250} src={img1} alt=''></img>
+            <div>   
+                <div className='container-title'>
+                    <h1>Las Brisas</h1>
                 </div>
-                
+                <div className='container-jobsite'>
+                    <div className='box-jobsite'>
+                        <img width={250} height={250} src={img1} alt=''></img>
+                    </div>
+                </div>
 
             </div>
         </>

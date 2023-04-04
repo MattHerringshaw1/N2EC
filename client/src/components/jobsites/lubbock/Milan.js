@@ -4,21 +4,23 @@ function Milan() {
 
     return(
         <>
-            <div>
-                <div>
-                    <h1>Milan Laser Hair Removal</h1>
-                </div>
-
-                <div>
+            
+                {/* <div>
                     <ul>
                         <li>Milan Laser Hair Removal</li>
                         <li>4414 82nd Street</li>
                         <li>Lubbock, TX 79424</li>
                     </ul>
-                </div>
+                </div> */}
 
-                <div>
-                    <img width={250} height={250} src={img1} alt=''></img>
+            <div>   
+                <div className='container-title'>
+                    <h1>Milan Laser Hair Removal</h1>
+                </div>
+                <div className='container-jobsite'>
+                    <div className='box-jobsite'>
+                        <img width={250} height={250} src={img1} alt=''></img>
+                    </div>
                 </div>
                 
             </div>

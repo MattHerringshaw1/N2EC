@@ -48,7 +48,7 @@ root.render(
           <Route path='/Lubbock/AdventurePark' element={<AdventurePark />} />
           <Route path='/Lubbock/UMC-Family&ChildrensClinic' element={<Umcp />} />
           <Route path='/Lubbock/Firestone' element={<FireStone />} />
-          <Route path='/Lubbock/N2EC' element={<N2ec />} />
+          <Route path='/Lubbock/N2ElectricalContractors' element={<N2ec />} />
           <Route path='/Lubbock/TwinPeaks' element={<TwinPeaks />} />
           <Route path='/Lubbock/ChildrensOrchardAcademy' element={<Orchard />} />
           <Route path='/Lubbock/Table82' element={<Table82 />} />
