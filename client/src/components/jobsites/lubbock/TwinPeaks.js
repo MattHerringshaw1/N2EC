@@ -10,30 +10,35 @@ function TwinPeaks() {
 
     return(
         <>
-        <div>
-            <h1>Twin Peaks</h1>
-        </div>
-        <ul>
+        
+        {/* <ul>
             <li>Twin Peaks</li>
             <li>6012 Marsha Sharp Fwy West</li>
             <li>Lubbock, TX 79407</li>
-        </ul>
+        </ul> */}
 
-        <div>
-            <img width={250} height={250} src={img1} alt=''></img>
-        </div>
-        <div>
-            <img width={250} height={250} src={img2} alt=''></img>
-        </div>
-        <div>
-            <img width={250} height={250} src={img3} alt=''></img>
-        </div>
-        <div>
-            <img width={250} height={250} src={img4} alt=''></img>
-        </div>
-        <div>
-            <img width={250} height={250} src={img5} alt=''></img>
-        </div>
+            <div>   
+                <div className='container-title'>
+                    <h1>Twin Peaks</h1>
+                </div>
+                <div className='container-jobsite'>
+                    <div className='box-jobsite'>
+                        <img width={250} height={250} src={img1} alt=''></img>
+                    </div>
+                    <div className='box-jobsite'>
+                        <img width={250} height={250} src={img2} alt=''></img>
+                    </div>
+                    <div className='box-jobsite'>
+                        <img width={250} height={250} src={img3} alt=''></img>
+                    </div>
+                    <div className='box-jobsite'>
+                        <img width={250} height={250} src={img4} alt=''></img>
+                    </div>
+                    <div className='box-jobsite'>
+                        <img width={250} height={250} src={img5} alt=''></img>
+                    </div>
+                </div>
+            </div>
      
         
         </>

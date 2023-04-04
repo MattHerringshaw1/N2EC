@@ -10,31 +10,34 @@ function GreatClips() {
 
     return(
         <>
-
-        <div>
-            <h1>Great Clips</h1>
-        </div>
-
+{/* 
         <div>
             <ul>
                 <li>Great Clips</li>
                 <li></li>
                 <li>Lubbock, TX 79424</li>
             </ul>
-        </div>
+        </div> */}
 
-        <div>
+       
+
+<div>   
+    <div className='container-title'>
+        <h1>Great Clips</h1>
+    </div>
+    <div className='container-jobsite'>
+        <div className='box-jobsite'>
             <img width={250} height={250} src={img1} alt=''></img>
         </div>
-        <div>
+        <div className='box-jobsite'>
             <img width={250} height={250} src={img2} alt=''></img>
         </div>
-        <div>
+        <div className='box-jobsite'>
             <img width={250} height={250} src={img3} alt=''></img>
         </div>
+    </div>
+</div>
    
-        
-      
         </>
     )
 }

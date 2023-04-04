@@ -8,35 +8,35 @@ function Tesla() {
 
     return(
         <>
-            <div>
-                <div>
-                    <h1>Tesla</h1>
-                </div>
-
-                <div>
+                {/* <div>
                     <ul>
                         <li>Tesla</li>
                         <li>4414 82nd Street</li>
                         <li>Lubbock, TX 79424</li>
                     </ul>
-                </div>
+                </div> */}
 
-                <div>
-                    <img width={250} height={250} src={img1} alt=''></img>
+            <div>   
+                <div className='container-title'>
+                    <h1>Tesla</h1>
                 </div>
-                <div>
-                    <img width={250} height={250} src={img2} alt=''></img>
+                <div className='container-jobsite'>
+                    <div className='box-jobsite'>
+                        <img width={250} height={250} src={img1} alt=''></img>
+                    </div>
+                    <div className='box-jobsite'>
+                        <img width={250} height={250} src={img2} alt=''></img>
+                    </div>
+                    <div className='box-jobsite'>
+                        <img width={250} height={250} src={img3} alt=''></img>
+                    </div>
+                    <div className='box-jobsite'>
+                        <img width={250} height={250} src={img4} alt=''></img>
+                    </div>
+                    <div className='box-jobsite'>
+                        <img width={250} height={250} src={img5} alt=''></img>
+                    </div>
                 </div>
-                <div>
-                    <img width={250} height={250} src={img3} alt=''></img>
-                </div>
-                <div>
-                    <img width={250} height={250} src={img4} alt=''></img>
-                </div>
-                <div>
-                    <img width={250} height={250} src={img5} alt=''></img>
-                </div>
-                
             </div>
         </>
     )

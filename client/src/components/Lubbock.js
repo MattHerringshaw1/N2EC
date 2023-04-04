@@ -66,126 +66,6 @@ function Lubbock() {
                 </NavLink> 
             </div>
             <div className='container-job'>
-                <NavLink style={{ textDecoration: 'none', color:'black' }} to='/Lubbock/GuadalupeVillas'>
-                    <div className='box-lbk'>
-                        <div>
-                            <img width={250} height={250} src={guadalupe} alt=""
-                            onMouseEnter={() => setIsHoveredGuad(true)}
-                            onMouseLeave={() => setIsHoveredGuad(false)}
-                            />
-                            <div className={`offset-heading ${isHoveredGuad ? 'hidden' : ''}`}>
-                                <h4>Guadalupe Villas</h4>
-                            </div>
-                        </div>
-                    </div>
-                </NavLink> 
-            </div>
-            
-            <div className='container-job'>
-                <NavLink style={{ textDecoration: 'none', color:'black' }} to='/Lubbock/Firestone'>
-                    <div className='box-lbk'>
-                        <img width={250} height={250} src={firestone} alt="" 
-                            onMouseEnter={() => setIsHoveredFirestone(true)}
-                            onMouseLeave={() => setIsHoveredFirestone(false)}
-                        />
-                        <div className={`offset-heading ${isHoveredFirestone ? 'hidden' : ''}`}>
-                            <h4>Firestone</h4>
-                        </div>
-                    </div>
-                </NavLink> 
-            </div>
-            <div className='container-job'>
-                <NavLink style={{ textDecoration: 'none', color:'black' }} to='/Lubbock/N2EC'>
-                    <div className='box-lbk'>
-                        <img width={250} height={250} src={n2ec} alt="" 
-                            onMouseEnter={() => setIsHoveredN2ec(true)}
-                            onMouseLeave={() => setIsHoveredN2ec(false)}
-                        />
-                        <div className={`offset-heading ${isHoveredN2ec ? 'hidden' : ''}`}>
-                            <h4>N2 Electrical COntractors</h4>
-                        </div>
-                    </div>
-                </NavLink> 
-            </div>
-            <div className='container-job'>
-                <NavLink style={{ textDecoration: 'none', color:'black' }} to='/Lubbock/TwinPeaks'>
-                    <div className='box-lbk'>
-                        <img width={250} height={250} src={twinPeaks} alt="" 
-                            onMouseEnter={() => setIsHoveredTwin(true)}
-                            onMouseLeave={() => setIsHoveredTwin(false)}
-                        />
-                        <div className={`offset-heading ${isHoveredTwin ? 'hidden' : ''}`}>
-                            <h4>Twin Peaks</h4>
-                        </div>
-                    </div>
-                </NavLink> 
-            </div>
-            <div className='container-job'>
-                <NavLink style={{ textDecoration: 'none', color:'black' }} to='/Lubbock/ChildrensOrchardAcademy'>
-                    <div className='box-lbk'>
-                        <img width={250} height={250} src={orchard} alt="" 
-                            onMouseEnter={() => setIsHoveredOrchard(true)}
-                            onMouseLeave={() => setIsHoveredOrchard(false)}
-                        />
-                        <div className={`offset-heading ${isHoveredOrchard ? 'hidden' : ''}`}>
-                            <h4>Orchard Academy</h4>
-                        </div>
-                    </div>
-                </NavLink> 
-            </div>
-            <div className='container-job'>
-                <NavLink style={{ textDecoration: 'none', color:'black' }} to='/Lubbock/Table82'>
-                    <div className='box-lbk'>
-                        <img width={250} height={250} src={table82} alt="" 
-                            onMouseEnter={() => setIsHoveredTable82(true)}
-                            onMouseLeave={() => setIsHoveredTable82(false)}
-                        />
-                        <div className={`offset-heading ${isHoveredTable82 ? 'hidden' : ''}`}>
-                            <h4>Table 82</h4>
-                        </div>
-                    </div>
-                </NavLink> 
-            </div>
-            <div className='container-job'>
-                <NavLink style={{ textDecoration: 'none', color:'black' }} to='/Lubbock/PeoplesBank'>
-                    <div className='box-lbk'>
-                        <img width={250} height={250} src={peoplesBank} alt="" 
-                            onMouseEnter={() => setIsHoveredPeoples(true)}
-                            onMouseLeave={() => setIsHoveredPeoples(false)}
-                        />
-                        <div className={`offset-heading ${isHoveredPeoples ? 'hidden' : ''}`}>
-                            <h4>Peoples Bank</h4>
-                        </div>
-                    </div>
-                </NavLink> 
-            </div>
-            <div className='container-job'>
-                <NavLink style={{ textDecoration: 'none', color:'black' }} to='/Lubbock/GreatClips'>
-                    <div className='box-lbk'>
-                        <img width={250} height={250} src={greatClips} alt="" 
-                            onMouseEnter={() => setIsHoveredClips(true)}
-                            onMouseLeave={() => setIsHoveredClips(false)}
-                        />
-                        <div className={`offset-heading ${isHoveredClips ? 'hidden' : ''}`}>
-                            <h4>Great Clips</h4>
-                        </div>
-                    </div>
-                </NavLink> 
-            </div>
-            <div className='container-job'>
-                <NavLink style={{ textDecoration: 'none', color:'black' }} to='/Lubbock/LasBrisas'>
-                    <div className='box-lbk'>
-                        <img width={250} height={250} src={lasBrisas} alt="" 
-                            onMouseEnter={() => setIsHoveredLasBrisas(true)}
-                            onMouseLeave={() => setIsHoveredLasBrisas(false)}
-                        />
-                        <div className={`offset-heading ${isHoveredLasBrisas ? 'hidden' : ''}`}>
-                            <h4>Las Brisas</h4>
-                        </div>
-                    </div>
-                </NavLink> 
-            </div>
-            <div className='container-job'>
                 <NavLink style={{ textDecoration: 'none', color:'black' }} to='/Lubbock/DominosPizza'>
                     <div className='box-lbk'>
                         <img width={250} height={250} src={dominos} alt="" 
@@ -193,7 +73,7 @@ function Lubbock() {
                             onMouseLeave={() => setIsHoveredDominos(false)}
                         />
                         <div className={`offset-heading ${isHoveredDominos ? 'hidden' : ''}`}>
-                            <h4>Domino's</h4>
+                            <h4>Domino's Pizza</h4>
                         </div>
                     </div>
                 </NavLink> 
@@ -212,6 +92,60 @@ function Lubbock() {
                 </NavLink> 
             </div>
             <div className='container-job'>
+                <NavLink style={{ textDecoration: 'none', color:'black' }} to='/Lubbock/Firestone'>
+                    <div className='box-lbk'>
+                        <img width={250} height={250} src={firestone} alt="" 
+                            onMouseEnter={() => setIsHoveredFirestone(true)}
+                            onMouseLeave={() => setIsHoveredFirestone(false)}
+                        />
+                        <div className={`offset-heading ${isHoveredFirestone ? 'hidden' : ''}`}>
+                            <h4>Firestone</h4>
+                        </div>
+                    </div>
+                </NavLink> 
+            </div>
+            <div className='container-job'>
+                <NavLink style={{ textDecoration: 'none', color:'black' }} to='/Lubbock/GreatClips'>
+                    <div className='box-lbk'>
+                        <img width={250} height={250} src={greatClips} alt="" 
+                            onMouseEnter={() => setIsHoveredClips(true)}
+                            onMouseLeave={() => setIsHoveredClips(false)}
+                        />
+                        <div className={`offset-heading ${isHoveredClips ? 'hidden' : ''}`}>
+                            <h4>Great Clips</h4>
+                        </div>
+                    </div>
+                </NavLink> 
+            </div>
+            <div className='container-job'>
+                <NavLink style={{ textDecoration: 'none', color:'black' }} to='/Lubbock/GuadalupeVillas'>
+                    <div className='box-lbk'>
+                        <div>
+                            <img width={250} height={250} src={guadalupe} alt=""
+                            onMouseEnter={() => setIsHoveredGuad(true)}
+                            onMouseLeave={() => setIsHoveredGuad(false)}
+                            />
+                            <div className={`offset-heading ${isHoveredGuad ? 'hidden' : ''}`}>
+                                <h4>Guadalupe Villas</h4>
+                            </div>
+                        </div>
+                    </div>
+                </NavLink> 
+            </div>
+            <div className='container-job'>
+                <NavLink style={{ textDecoration: 'none', color:'black' }} to='/Lubbock/LasBrisas'>
+                    <div className='box-lbk'>
+                        <img width={250} height={250} src={lasBrisas} alt="" 
+                            onMouseEnter={() => setIsHoveredLasBrisas(true)}
+                            onMouseLeave={() => setIsHoveredLasBrisas(false)}
+                        />
+                        <div className={`offset-heading ${isHoveredLasBrisas ? 'hidden' : ''}`}>
+                            <h4>Las Brisas</h4>
+                        </div>
+                    </div>
+                </NavLink> 
+            </div>
+            <div className='container-job'>
                 <NavLink style={{ textDecoration: 'none', color:'black' }} to='/Lubbock/Milan'>
                     <div className='box-lbk'>
                         <img width={250} height={250} src={milan} alt="" 
@@ -220,6 +154,58 @@ function Lubbock() {
                         />
                         <div className={`offset-heading ${isHoveredMilan ? 'hidden' : ''}`}>
                             <h4>Milan</h4>
+                        </div>
+                    </div>
+                </NavLink> 
+            </div>
+            <div className='container-job'>
+                <NavLink style={{ textDecoration: 'none', color:'black' }} to='/Lubbock/N2ElectricalContractors'>
+                    <div className='box-lbk'>
+                        <img width={250} height={250} src={n2ec} alt="" 
+                            onMouseEnter={() => setIsHoveredN2ec(true)}
+                            onMouseLeave={() => setIsHoveredN2ec(false)}
+                        />
+                        <div className={`offset-heading ${isHoveredN2ec ? 'hidden' : ''}`}>
+                            <h4>N2 Electrical Contractors</h4>
+                        </div>
+                    </div>
+                </NavLink> 
+            </div>
+            <div className='container-job'>
+                <NavLink style={{ textDecoration: 'none', color:'black' }} to='/Lubbock/ChildrensOrchardAcademy'>
+                    <div className='box-lbk'>
+                        <img width={250} height={250} src={orchard} alt="" 
+                            onMouseEnter={() => setIsHoveredOrchard(true)}
+                            onMouseLeave={() => setIsHoveredOrchard(false)}
+                        />
+                        <div className={`offset-heading ${isHoveredOrchard ? 'hidden' : ''}`}>
+                            <h4>Children's Orchard Academy</h4>
+                        </div>
+                    </div>
+                </NavLink> 
+            </div>
+            <div className='container-job'>
+                <NavLink style={{ textDecoration: 'none', color:'black' }} to='/Lubbock/PeoplesBank'>
+                    <div className='box-lbk'>
+                        <img width={250} height={250} src={peoplesBank} alt="" 
+                            onMouseEnter={() => setIsHoveredPeoples(true)}
+                            onMouseLeave={() => setIsHoveredPeoples(false)}
+                        />
+                        <div className={`offset-heading ${isHoveredPeoples ? 'hidden' : ''}`}>
+                            <h4>Peoples Bank</h4>
+                        </div>
+                    </div>
+                </NavLink> 
+            </div>
+            <div className='container-job'>
+                <NavLink style={{ textDecoration: 'none', color:'black' }} to='/Lubbock/Table82'>
+                    <div className='box-lbk'>
+                        <img width={250} height={250} src={table82} alt="" 
+                            onMouseEnter={() => setIsHoveredTable82(true)}
+                            onMouseLeave={() => setIsHoveredTable82(false)}
+                        />
+                        <div className={`offset-heading ${isHoveredTable82 ? 'hidden' : ''}`}>
+                            <h4>Table 82</h4>
                         </div>
                     </div>
                 </NavLink> 
@@ -237,7 +223,19 @@ function Lubbock() {
                     </div>
                 </NavLink> 
             </div>
-            
+            <div className='container-job'>
+                <NavLink style={{ textDecoration: 'none', color:'black' }} to='/Lubbock/TwinPeaks'>
+                    <div className='box-lbk'>
+                        <img width={250} height={250} src={twinPeaks} alt="" 
+                            onMouseEnter={() => setIsHoveredTwin(true)}
+                            onMouseLeave={() => setIsHoveredTwin(false)}
+                        />
+                        <div className={`offset-heading ${isHoveredTwin ? 'hidden' : ''}`}>
+                            <h4>Twin Peaks</h4>
+                        </div>
+                    </div>
+                </NavLink> 
+            </div>
             <div className='container-job' >
                 <NavLink style={{ textDecoration: 'none', color:'black' }} to='/Lubbock/UMC-Family&ChildrensClinic'>
                     <div className='box-lbk'>

@@ -17,52 +17,58 @@ function Guadalupe() {
 
     return(
         <>
-        <h1>Guadalupe Villas</h1>
-        <ul>
+        {/* <ul>
             <li>Guadalupe Villas</li>
             <li>1001 3rd Street</li>
             <li>Lubbock, TX 79401</li>
-        </ul>
+        </ul> */}
 
-        <div>
-            <img src={img1} alt=''></img>
-        </div>
-        <div>
-            <img src={img2} alt=''></img>
-        </div>
-        <div>
-            <img src={img3} alt=''></img>
-        </div>
-        <div>
-            <img src={img4} alt=''></img>
-        </div>
-        <div>
-            <img src={img5} alt=''></img>
-        </div>
-        <div>
-            <img src={img6} alt=''></img>
-        </div>
-        <div>
-            <img src={img7} alt=''></img>
-        </div>
-        <div>
-            <img src={img8} alt=''></img>
-        </div>
-        <div>
-            <img src={img9} alt=''></img>
-        </div>
-        <div>
-            <img src={img10} alt=''></img>
-        </div>
-        <div>
-            <img src={img11} alt=''></img>
-        </div>
-        <div>
-            <img src={img12} alt=''></img>
-        </div>
-        <div>
-            <img src={img13} alt=''></img>
-        </div>
+            <div>   
+                <div className='container-title'>
+                    <h1>Guadalupe Villas</h1>
+                </div>
+                <div className='container-jobsite'>
+                    <div className='box-jobsite'>
+                        <img width={250} height={250}  src={img1} alt=''></img>
+                    </div>
+                    <div className='box-jobsite'>
+                        <img width={250} height={250}  src={img2} alt=''></img>
+                    </div>
+                    <div className='box-jobsite'>
+                        <img width={250} height={250}  src={img3} alt=''></img>
+                    </div>
+                    <div className='box-jobsite'>
+                        <img width={250} height={250}  src={img4} alt=''></img>
+                    </div>
+                    <div className='box-jobsite'>
+                        <img width={250} height={250}  src={img5} alt=''></img>
+                    </div>
+                    <div className='box-jobsite'>
+                        <img width={250} height={250}  src={img6} alt=''></img>
+                    </div>
+                    <div className='box-jobsite'>
+                        <img width={250} height={250}  src={img7} alt=''></img>
+                    </div>
+                    <div className='box-jobsite'>
+                        <img width={250} height={250}  src={img8} alt=''></img>
+                    </div>
+                    <div className='box-jobsite'>
+                        <img width={250} height={250}  src={img9} alt=''></img>
+                    </div>
+                    <div className='box-jobsite'>
+                        <img width={250} height={250}  src={img10} alt=''></img>
+                    </div>
+                    <div className='box-jobsite'>
+                        <img width={250} height={250}  src={img11} alt=''></img>
+                    </div>
+                    <div className='box-jobsite'>
+                        <img width={250} height={250}  src={img12} alt=''></img>
+                    </div>
+                    <div className='box-jobsite'>
+                        <img width={250} height={250}  src={img13} alt=''></img>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }

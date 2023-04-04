@@ -9,26 +9,32 @@ function FireStone() {
 
     return(
         <>
-        <h1>Firestone Complete Auto Care</h1>
-        <ul>
+        {/* <ul>
             <li>Firestone Complete Auto Care</li>
             <li>6507 82nd Street</li>
             <li>Lubbock, TX 79424</li>
-        </ul>
+        </ul> */}
 
-        <div>
-            <img width={250} height={250} src={img1} alt=''></img>
+        
+    <div>   
+        <div className='container-title'>
+            <h1>Firestone</h1>
         </div>
-        <div>
-            <img width={250} height={250} src={img2} alt=''></img>
+        <div className='container-jobsite'>
+            <div className='box-jobsite'>
+                <img width={250} height={250} src={img1} alt=''></img>
+            </div>
+            <div className='box-jobsite'>
+                <img width={250} height={250} src={img2} alt=''></img>
+            </div>
+            <div className='box-jobsite'>
+                <img width={250} height={250} src={img3} alt=''></img>
+            </div>
+            <div className='box-jobsite'>
+                <img width={250} height={250} src={img4} alt=''></img>
+            </div>
         </div>
-        <div>
-            <img width={250} height={250} src={img3} alt=''></img>
-        </div>
-        <div>
-            <img width={250} height={250} src={img4} alt=''></img>
-        </div>
-     
+    </div>
         
         </>
     )

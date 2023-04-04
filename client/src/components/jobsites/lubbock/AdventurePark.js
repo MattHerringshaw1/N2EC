@@ -4,35 +4,48 @@ import img3 from '/Users/mattherringshaw/Desktop/n2ec/client/src/images/lubbock/
 import img4 from '/Users/mattherringshaw/Desktop/n2ec/client/src/images/lubbock/adventure-park/tower.jpeg'
 import img5 from '/Users/mattherringshaw/Desktop/n2ec/client/src/images/lubbock/adventure-park/string-lights.jpeg'
 
+import '/Users/mattherringshaw/Desktop/n2ec/client/src/styles/jobsite.css'
+
 
 function AdventurePark() {
 
 
     return(
         <>
-        <h1>Adventure Park</h1>
-        <ul>
+        {/* <ul>
             <li>Adventure Park</li>
             <li>5110 29th Drive</li>
             <li>Lubbock, TX 79407</li>
-        </ul>
+        </ul> */}
 
-        <div>
-            <img width={250} height={250} src={img1} alt=''></img>
+
+    
+    <div>
+        <div className='container-title'>
+            <h1>Adventure Park</h1>
         </div>
-        <div>
-            <img width={250} height={250} src={img2} alt=''></img>
+        <div className='container-jobsite'>
+            <div className='box-jobsite'>
+                <img width={250} height={250} src={img1} alt=''></img>
+            </div>
+
+            <div className='box-jobsite'>
+                <img width={250} height={250} src={img2} alt=''></img>
+            </div>
+
+            <div className='box-jobsite'>
+                <img width={250} height={250} src={img3} alt=''></img>
+            </div>
+
+            <div className='box-jobsite'>
+                <img width={250} height={250} src={img4} alt=''></img>
+            </div>
+
+            <div className='box-jobsite'>
+                <img width={250} height={250} src={img5} alt=''></img>
+            </div>
         </div>
-        <div>
-            <img width={250} height={250} src={img3} alt=''></img>
-        </div>
-        <div>
-            <img width={250} height={250} src={img4} alt=''></img>
-        </div>
-        <div>
-            <img width={250} height={250} src={img5} alt=''></img>
-        </div>
-        
+    </div>
         </>
     )
 }
