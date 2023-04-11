@@ -1,0 +1,118 @@
+.container-business-main {
+    background-color: rgba(116, 114, 125, .8);    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.container-business-intro {
+    /* background-color: rgba(116, 114, 125, .6);     */
+    width: 95%;
+    align-items: center;
+    text-align: center;
+    margin-top: 1%;
+    
+
+}
+
+.container-business-intro p {
+    /* background-color: rgba(116, 114, 125, .6);     */
+    /* width: 90%; */
+    align-items: center;
+    text-align: left;
+    margin-top: 1%;
+}
+
+
+.container-business-cards {
+    /* background-color: yellow; */
+    flex-wrap: wrap;
+    margin: 1%;
+    display: flex;
+justify-content: center;}
+
+
+.business-card-container {
+    display: flex;
+    align-items: center;
+    /* width: 40%;
+    height: auto; */
+    width: 400px;
+    height: 120px;
+    background-color: #f1f1f1;
+    margin: 1%;
+    border: 2px solid red;
+    border-radius: 10px;
+   
+  }
+  
+  .logo-container {
+    height: 80%;
+    margin-left: 10%;
+    border-right: 1.5px solid red;
+    width: 50%;
+  }
+  
+  .logo-container img {
+    max-width: 100%;
+    
+  }
+  
+  .contact-info-container {
+    height: 100%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 50%;
+    
+
+  }
+  
+  .contact-info-container h5 {
+    margin-top: 2%;
+    
+  }
+  
+  .contact-info-container p {
+    margin-bottom: 2%;
+    color: rgb(92, 91, 91);
+  }
+
+  .contact-info-container a {
+    margin-bottom: 2%;
+    color: gray;
+    text-decoration: none;  }
+  
+ 
+
+  /* .business-card-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .logo-container {
+    height: 100%;
+    margin-right: 20px;
+    border-right: 1px solid #ccc;
+  }
+  
+  .logo-container img {
+    max-width: 100%;
+  }
+  
+  .contact-info-container {
+    flex-grow: 1;
+    height: 100%;
+  }
+  
+  .contact-info-container h2 {
+    margin-top: 0;
+  }
+  
+  .contact-info-container p {
+    margin-bottom: 5px;
+  } */

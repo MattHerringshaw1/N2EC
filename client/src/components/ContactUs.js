@@ -1,43 +1,86 @@
+import '../styles/contact-us.css'
 
 
-function ContactUs() {
+function ContactUs(props) {
+
+ 
 
     return(
         <>
-        <div>
-            <h1>Contact Us</h1>
-            <p>Thank you for considering N2 Electrical Contractors for your project needs. We welcome any questions you may have regarding our services, or if you would like to submit a bid or request more information. Our team is dedicated to providing prompt and professional responses to all inquiries. We understand that every project is unique, and we are committed to working closely with our clients to ensure their needs are met. We appreciate your interest in our company and look forward to hearing from you.</p>
-        </div>
 
-        <div>
-            <ul>
-                <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
-                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
-                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                    </svg>
-                    N2 Electrical Contractors 
-                    <br></br>
-                    701 Broadway Street
-                    <br></br>
-                    Lubbock, TX 79401
-                </li>
-                <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
-                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                    </svg>
-                    +1 (806) 993-0024
-                </li>
-                <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-                    </svg>
-                    <a href="mailto: kim@n2ec.com" >kim@n2ec.com</a>
-                </li>
-            </ul>
-            
-            
-        </div>
+            <div className='container-contact-main'>
+                <div className='container-contact-intro'>
+                    <div>
+                        <h1>Contact Us Directly!</h1>                    
+                    </div>
+                    <div>
+                        <p>Thank you for considering N2 Electrical Contractors for your project needs. We welcome any questions you may have regarding our services, or if you would like to submit a bid or request more information. Our team is dedicated to providing prompt and professional responses to all inquiries. We understand that every project is unique, and we are committed to working closely with our clients to ensure their needs are met. We appreciate your interest in our company and look forward to hearing from you.</p>
+                    </div>
+                </div>
+                <div class='container-contact-info'>
+                    <div className='container-contact-item'>
+                        <div className='item-icon'>
+                        <a href="geo:33.58425,101.84220" >
+                            <svg viewBox="0 0 512 512" fill="red" height="24" width="24" {...props}>
+                                <path
+                                    fill="none"
+                                    stroke="red"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth={32}
+                                    d="M256 48c-79.5 0-144 61.39-144 137 0 87 96 224.87 131.25 272.49a15.77 15.77 0 0025.5 0C304 409.89 400 272.07 400 185c0-75.61-64.5-137-144-137z"
+                                />
+                                <path
+                                    fill="none"
+                                    stroke="red"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth={32}
+                                    d="M304 192 A48 48 0 0 1 256 240 A48 48 0 0 1 208 192 A48 48 0 0 1 304 192 z"
+                                />
+                            </svg>
+                            </a>
+                        </div>
+                        <div className='item-info'>
+                            <a href="geo:33.58425,101.84220" >
+                                <h6> N2 Electrical Contractors 
+                                <br></br>
+                                701 Broadway Street
+                                <br></br>
+                                Lubbock, TX 79401</h6>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className='container-contact-item'>
+                        <div className='item-icon'>
+                            <a href="tel:+1-806-993-0024" >
+                                <svg viewBox="0 0 1024 1024" fill="red" height="24" width="24" {...props}><path d="M877.1 238.7L770.6 132.3c-13-13-30.4-20.3-48.8-20.3s-35.8 7.2-48.8 20.3L558.3 246.8c-13 13-20.3 30.5-20.3 48.9 0 18.5 7.2 35.8 20.3 48.9l89.6 89.7a405.46 405.46 0 01-86.4 127.3c-36.7 36.9-79.6 66-127.2 86.6l-89.6-89.7c-13-13-30.4-20.3-48.8-20.3a68.2 68.2 0 00-48.8 20.3L132.3 673c-13 13-20.3 30.5-20.3 48.9 0 18.5 7.2 35.8 20.3 48.9l106.4 106.4c22.2 22.2 52.8 34.9 84.2 34.9 6.5 0 12.8-.5 19.2-1.6 132.4-21.8 263.8-92.3 369.9-198.3C818 606 888.4 474.6 910.4 342.1c6.3-37.6-6.3-76.3-33.3-103.4zm-37.6 91.5c-19.5 117.9-82.9 235.5-178.4 331s-213 158.9-330.9 178.4c-14.8 2.5-30-2.5-40.8-13.2L184.9 721.9 295.7 611l119.8 120 .9.9 21.6-8a481.29 481.29 0 00285.7-285.8l8-21.6-120.8-120.7 110.8-110.9 104.5 104.5c10.8 10.8 15.8 26 13.3 40.8z" /></svg>                        
+                            </a>
+                        </div>
+                        <div className='item-info'>
+                            <a href="tel:+1-806-993-0024" >
+                                <h6>+1 (806) 993-0024</h6>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className='container-contact-item'>
+                        <div className='item-icon'>
+                            <a href="mailto: kim@n2ec.com" >
+                                <svg viewBox="0 0 24 24" fill="red" height="24" width="24" {...props}><path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6m-2 0l-8 5-8-5h16m0 12H4V8l8 5 8-5v10z" /></svg>                        
+                            </a>
+                        </div>
+                        <div className='item-info'>
+                            <a href="mailto: kim@n2ec.com" >
+                                <h6>Send Us An Email!</h6>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
         </>
     )
 }
