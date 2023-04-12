@@ -17,8 +17,8 @@ function Home() {
                     <img width={400} height={250} src={logo} alt=''></img>
                 </div>
                 <div className='text-home'>
-                    <h6>TECL 31364 </h6>
-                    <h6>Trusted by the best</h6>
+                    <h4>TECL 31364 </h4>
+                    <i><h6>TRUSTED BY THE BEST</h6></i>
                 </div>
             </div>
             <div className='container-jobs'>
