@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=VT323&display=swap');
+
+
+html, body, #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+.footer {
+    display: flex;
+    background-color: black;
+    font-family: 'VT323', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF8C;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+    visibility: visible;
+    height: fit-content;
+    border: 2px solid red;
+    
+    margin-top: auto;
+}
+
+.footer-inline {
+    /* position: fixed; */
+    bottom: 0%;
+    width: 100%;
+    backface-visibility: hidden;
+    background-color: #212525;
+}
+
+.footer-inline a {
+    text-decoration: none;
+    color: gray;
+}
+
+
+
+.footer-inline h5 {
+    color: gray;
+}
+
+.footer-copyright {
+    display: flex;
+    margin-left: 2% ;
+   
+}
+
+.footer-address {
+    display: flex;
+    /* position: absolute; */
+    float: right;
+    margin-right: 5%;
+}

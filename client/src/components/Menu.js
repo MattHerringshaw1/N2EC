@@ -21,15 +21,17 @@ function Menu() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <NavDropdown title="Our Jobs" id="basic-nav-dropdown">
+            <NavDropdown title="Portfolio" id="basic-nav-dropdown">
               <NavDropdown.Item href="/Dallas">Dallas</NavDropdown.Item>
               <NavDropdown.Item href="/Lubbock">Lubbock</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="About Us" id="basic-nav-dropdown">
               <NavDropdown.Item href="/OurTeam">Our Team</NavDropdown.Item>
               <NavDropdown.Item href="/Careers">Careers</NavDropdown.Item>
-              <NavDropdown.Item href="/ContactUs">Contact Us</NavDropdown.Item>
+              {/* <NavDropdown.Item href="/ContactUs">Contact Us</NavDropdown.Item> */}
             </NavDropdown>
+            <Nav.Link href="/IndustryPartners">Industry Partners</Nav.Link>
+
           </Nav>
           {/* <Nav className="me-auto">
             <NavDropdown title="About Us" id="basic-nav-dropdown">

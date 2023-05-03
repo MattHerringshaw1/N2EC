@@ -5,11 +5,10 @@ function BaseLayout(props) {
 
     return(
         <>
-        <div>
+       
             <Menu />
-            {props.children}
+                {props.children}
             <Footer />
-        </div>
        
         </>
     )

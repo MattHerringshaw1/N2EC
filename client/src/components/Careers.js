@@ -36,7 +36,7 @@ function Careers() {
                 </div>
           
                 <div>
-                <Button href="mailto: kim@n2ec.com" variant="dark">Apply Today!</Button>{' '}
+                <Button href="mailto: kim@n2ec.com" variant="dark">Click Here to Send Your Resume!</Button>{' '}
                     {/* <button><a href="mailto: kim@n2ec.com" >Apply Today!</a></button> */}
                 </div>
             </div>

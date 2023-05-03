@@ -1,3 +1,10 @@
+
+/* .container-main {
+  overflow-x: scroll;
+  overflow-y: scroll;
+  overflow: hidden;
+} */
+
 .container-home {
     width: 100%;
     display: flex;
@@ -5,7 +12,6 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
   }
 
 .container-logo{
@@ -81,4 +87,23 @@
 
 
 
- 
+  
+
+
+  .navlinks-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navlink {
+    width: 40%;
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+    background-color: grey;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
