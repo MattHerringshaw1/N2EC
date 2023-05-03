@@ -27,7 +27,8 @@ import ElMitote from './components/jobsites/lubbock/ElMitote';
 import Milan from './components/jobsites/lubbock/Milan';
 import Tesla from './components/jobsites/lubbock/Tesla';
 import OurTeam from './components/OurTeam';
-import ImgSlider from './components/ImgSlider';
+import IndustryPartners from './components/IndustryPartners';
+// import ImgSlider from './components/ImgSlider';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -36,12 +37,13 @@ root.render(
     <BrowserRouter>
     
     <BaseLayout>
-    <ImgSlider></ImgSlider>
+    {/* <ImgSlider></ImgSlider> */}
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/Careers' element={<Careers />} />
           <Route path='/ContactUs' element={<ContactUs />} />
           <Route path='/OurTeam' element={<OurTeam />} />
+          <Route path='/IndustryPartners' element={<IndustryPartners />} />
           <Route path='/Dallas' element={<Dallas />} />
           <Route path='/Lubbock' element={<Lubbock />} />
           <Route path='/Lubbock/GuadalupeVillas' element={<Guadalupe />} />
