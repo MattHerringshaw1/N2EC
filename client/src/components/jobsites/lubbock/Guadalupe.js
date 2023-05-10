@@ -23,7 +23,7 @@ function Guadalupe() {
             <li>Lubbock, TX 79401</li>
         </ul> */}
 
-            <div>   
+            <div className='container-jobsite-main'>   
                 <div className='container-title'>
                     <h1>Guadalupe Villas</h1>
                 </div>

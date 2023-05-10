@@ -16,7 +16,7 @@ function PeoplesBank() {
                 </div> */}
 
                 
-            <div>   
+            <div className='container-jobsite-main'>   
                 <div className='container-title'>
                     <h1>Peoples Bank</h1>
                 </div>

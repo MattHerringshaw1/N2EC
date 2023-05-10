@@ -20,7 +20,7 @@ function ElMitote() {
 
 
 
-            <div>   
+            <div className='container-jobsite-main'>   
                 <div className='container-title'>
                     <h1>El Mitote</h1>
                 </div>

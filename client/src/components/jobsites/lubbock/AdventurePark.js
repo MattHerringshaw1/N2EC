@@ -20,7 +20,7 @@ function AdventurePark() {
 
 
     
-    <div>
+    <div className='container-jobsite-main'>
         <div className='container-title'>
             <h1>Adventure Park</h1>
         </div>

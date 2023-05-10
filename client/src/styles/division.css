@@ -6,15 +6,15 @@ justify-content: center;
 justify-items: center;
 justify-self: center;
 */
-
+/* 
 body {
   background-image: url(/Users/mattherringshaw/Desktop/n2ec/client/src/images/background.png);
   background-repeat: no-repeat;
-  /* background-size: cover; */
-  background-size: 100%;
+  background-size: cover;
+  background-size: 65%;
   background-position: center;
   background-attachment: fixed;
-}
+} */
 
 .container-division {
     width: 100%;
@@ -22,7 +22,6 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    overflow-x: scroll;
 
 }
 

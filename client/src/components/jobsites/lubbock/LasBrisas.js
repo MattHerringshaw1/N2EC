@@ -13,7 +13,7 @@ function LasBrisas() {
                     </ul>
                 </div> */}
 
-            <div>   
+            <div className='container-jobsite-main'>   
                 <div className='container-title'>
                     <h1>Las Brisas</h1>
                 </div>

@@ -16,7 +16,7 @@ function FireStone() {
         </ul> */}
 
         
-    <div>   
+    <div className='container-jobsite-main'>   
         <div className='container-title'>
             <h1>Firestone</h1>
         </div>

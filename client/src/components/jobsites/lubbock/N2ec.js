@@ -15,7 +15,7 @@ function N2ec() {
             <li>Lubbock, TX 79401</li>
         </ul> */}
 
-            <div>   
+            <div className='container-jobsite-main'>   
                 <div className='container-title'>
                     <h1>N2 Electrical Contractors</h1>
                 </div>

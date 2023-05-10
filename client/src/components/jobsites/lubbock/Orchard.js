@@ -21,7 +21,7 @@ function Orchard() {
             </ul>
         </div> */}
 
-            <div>   
+            <div className='container-jobsite-main'>   
                 <div className='container-title'>
                     <h1>Children's Orchard Academy</h1>
                 </div>

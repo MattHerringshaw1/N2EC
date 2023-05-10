@@ -21,9 +21,11 @@ function Menu() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <NavDropdown title="Portfolio" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/Dallas">Dallas</NavDropdown.Item>
-              <NavDropdown.Item href="/Lubbock">Lubbock</NavDropdown.Item>
+            <NavDropdown title="Work We Do" id="basic-nav-dropdown">
+              {/* <NavDropdown.Item href="/Dallas">Dallas</NavDropdown.Item>
+              <NavDropdown.Item href="/Lubbock">Lubbock</NavDropdown.Item> */}
+              <NavDropdown.Item href="/AllJobs">All Jobs</NavDropdown.Item> 
+              <NavDropdown.Item href="/Education">Education</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="About Us" id="basic-nav-dropdown">
               <NavDropdown.Item href="/OurTeam">Our Team</NavDropdown.Item>
