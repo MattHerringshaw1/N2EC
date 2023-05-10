@@ -1,9 +1,10 @@
 .container-business-main {
-    background-color: rgba(116, 114, 125, .8);    
+    /* background-color: rgba(116, 114, 125, .9);     */
     display: flex;
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
+    
 }
 
 .test {
@@ -17,7 +18,6 @@
     text-align: center;
     margin-top: 1%;
     
-
 }
 
 .container-business-intro p {
@@ -30,26 +30,38 @@
 
 
 .container-business-cards {
-    /* background-color: yellow; */
-    flex-wrap: wrap;
-    margin: 1%;
-    display: flex;
-justify-content: center;}
+  /* background-color: yellow; */
+  flex-wrap: wrap;
+  margin: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 
 .business-card-container {
     display: flex;
     align-items: center;
-    /* width: 40%;
-    height: auto; */
-    width: 370px;
+    /* width: 370px; */
+    width: 300px;
     height: 120px;
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
     margin: 1%;
     border: 2px solid red;
     border-radius: 10px;
-   
+   justify-content: center;
   }
+
+.business-card-container-boss{
+  display: flex;
+  flex-direction: row;
+}
+
+.business-card-container-employee{
+  display: flex;
+  flex-direction: column;
+}
   
   .logo-container {
     height: 80%;
@@ -122,4 +134,60 @@ justify-content: center;}
 
 
 
+  .container-contact-main {
+    /* background-color: rgba(116, 114, 125, .9);     */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    
+}
+
+.container-contact-intro {
+    /* background-color: rgba(116, 114, 125, .6);     */
+    width: 100%;
+    /* align-items: center; */
+    text-align: center;
+    margin-left: 2.5%;
+}
+
+.container-contact-intro p {
+    /* background-color: rgba(116, 114, 125, .6);     */
+    width: 95%;
+    /* align-items: center; */
+    text-align: left;
+    /* margin-top: 1%; */
+
+}
+
+.container-contact-info {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-start;
+    align-self: center;
+  }
   
+  .container-contact-item {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    align-items: center;
+  }
+  
+  .item-info {
+    margin-left: 1rem;
+    margin-top: 4%;
+  }
+  
+  .item-icon {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+
+  .item-info a {
+    text-decoration: none;
+    color: black;
+    
+}

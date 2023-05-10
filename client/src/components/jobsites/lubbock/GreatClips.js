@@ -21,7 +21,7 @@ function GreatClips() {
 
        
 
-<div>   
+<div className='container-jobsite-main'>   
     <div className='container-title'>
         <h1>Great Clips</h1>
     </div>

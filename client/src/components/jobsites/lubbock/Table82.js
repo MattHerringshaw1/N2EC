@@ -21,7 +21,7 @@ function Table82() {
 
         
 
-            <div>   
+            <div className='container-jobsite-main'>   
                 <div className='container-title'>
                     <h1>Table 82</h1>
                 </div>

@@ -6,10 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
 import Home from './components/Home';
 import Lubbock from './components/Lubbock';
-import Dallas from './components/Dallas';
 import BaseLayout from './components/BaseLayout';
 import Careers from './components/Careers';
-import ContactUs from './components/ContactUs';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Guadalupe from './components/jobsites/lubbock/Guadalupe';
 import AdventurePark from './components/jobsites/lubbock/AdventurePark';
@@ -28,6 +26,8 @@ import Milan from './components/jobsites/lubbock/Milan';
 import Tesla from './components/jobsites/lubbock/Tesla';
 import OurTeam from './components/OurTeam';
 import IndustryPartners from './components/IndustryPartners';
+import AllJobs from './components/AllJobs';
+import Education from './components/Education';
 // import ImgSlider from './components/ImgSlider';
 
 
@@ -41,11 +41,11 @@ root.render(
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/Careers' element={<Careers />} />
-          <Route path='/ContactUs' element={<ContactUs />} />
           <Route path='/OurTeam' element={<OurTeam />} />
           <Route path='/IndustryPartners' element={<IndustryPartners />} />
-          <Route path='/Dallas' element={<Dallas />} />
           <Route path='/Lubbock' element={<Lubbock />} />
+          <Route path='/AllJobs' element={<AllJobs />} />
+          <Route path='/Education' element={<Education />} />
           <Route path='/Lubbock/GuadalupeVillas' element={<Guadalupe />} />
           <Route path='/Lubbock/AdventurePark' element={<AdventurePark />} />
           <Route path='/Lubbock/UMC-Family&ChildrensClinic' element={<Umcp />} />

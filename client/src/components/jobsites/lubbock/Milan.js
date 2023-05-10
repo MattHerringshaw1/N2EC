@@ -13,7 +13,7 @@ function Milan() {
                     </ul>
                 </div> */}
 
-            <div>   
+            <div className='container-jobsite-main'>   
                 <div className='container-title'>
                     <h1>Milan Laser Hair Removal</h1>
                 </div>

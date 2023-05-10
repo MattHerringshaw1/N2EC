@@ -37,7 +37,12 @@ function Careers() {
           
                 <div>
                 <Button href="mailto: kim@n2ec.com" variant="dark">Click Here to Send Your Resume!</Button>{' '}
+                
                     {/* <button><a href="mailto: kim@n2ec.com" >Apply Today!</a></button> */}
+                </div>
+                <div>
+                    <Button variant="dark" >TDLR links</Button>
+                    <Button variant="dark" >Renew License</Button>
                 </div>
             </div>
         </>

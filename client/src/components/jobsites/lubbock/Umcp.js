@@ -34,7 +34,7 @@ function Umcp() {
             </div> 
             */}
 
-            <div>   
+            <div className='container-jobsite-main'>   
                 <div className='container-title'>
                     <h1>UMC Family & Children's Clinic</h1>
                 </div>

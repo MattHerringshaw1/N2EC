@@ -17,7 +17,7 @@ function TwinPeaks() {
             <li>Lubbock, TX 79407</li>
         </ul> */}
 
-            <div>   
+            <div className='container-jobsite-main'>   
                 <div className='container-title'>
                     <h1>Twin Peaks</h1>
                 </div>
