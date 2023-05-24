@@ -16,6 +16,7 @@ function LasBrisas() {
             <div className='container-jobsite-main'>   
                 <div className='container-title'>
                     <h1>Las Brisas</h1>
+                    <h3>Amarillo, TX</h3>
                 </div>
                 <div className='container-jobsite'>
                     <div className='box-jobsite'>

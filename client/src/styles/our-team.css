@@ -31,12 +31,13 @@
 
 .container-business-cards {
   /* background-color: yellow; */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   margin: 1%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
 }
 
 
@@ -50,13 +51,23 @@
     margin: 1%;
     border: 2px solid red;
     border-radius: 10px;
-   justify-content: center;
+    justify-content: center;
+    
   }
 
 .business-card-container-boss{
   display: flex;
   flex-direction: row;
+
+  @media (max-width: 767px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+
 }
+
+
 
 .business-card-container-employee{
   display: flex;

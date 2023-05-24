@@ -16,6 +16,7 @@ function Milan() {
             <div className='container-jobsite-main'>   
                 <div className='container-title'>
                     <h1>Milan Laser Hair Removal</h1>
+                    <h3>Lubbock, TX</h3>
                 </div>
                 <div className='container-jobsite'>
                     <div className='box-jobsite'>
