@@ -24,8 +24,12 @@ function Menu() {
             <NavDropdown title="Work We Do" id="basic-nav-dropdown">
               {/* <NavDropdown.Item href="/Dallas">Dallas</NavDropdown.Item>
               <NavDropdown.Item href="/Lubbock">Lubbock</NavDropdown.Item> */}
-              <NavDropdown.Item href="/AllJobs">All Jobs</NavDropdown.Item> 
-              <NavDropdown.Item href="/Education">Education</NavDropdown.Item>
+              <NavDropdown.Item href="/Work/AllWork">All Work</NavDropdown.Item> 
+              <NavDropdown.Item href="/Work/Education">Education</NavDropdown.Item>
+              <NavDropdown.Item href="/Work/Medical">Medical</NavDropdown.Item>
+              <NavDropdown.Item href="/Work/Restaurants">Restaurants</NavDropdown.Item>
+              <NavDropdown.Item href="/Work/Retail">Retail</NavDropdown.Item>
+              <NavDropdown.Item href="/Work/TennantFinishOuts">Tennant Finish-Outs</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="About Us" id="basic-nav-dropdown">
               <NavDropdown.Item href="/OurTeam">Our Team</NavDropdown.Item>

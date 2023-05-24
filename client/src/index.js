@@ -25,9 +25,13 @@ import ElMitote from './components/jobsites/lubbock/ElMitote';
 import Milan from './components/jobsites/lubbock/Milan';
 import Tesla from './components/jobsites/lubbock/Tesla';
 import OurTeam from './components/OurTeam';
-import IndustryPartners from './components/IndustryPartners';
+import Partners from './components/Partners';
 import AllJobs from './components/AllJobs';
 import Education from './components/Education';
+import Medical from './components/Medical';
+import Restaurants from './components/Restaurants';
+import Retail from './components/Retail';
+import Tennant from './components/Tennant';
 // import ImgSlider from './components/ImgSlider';
 
 
@@ -42,10 +46,14 @@ root.render(
           <Route path='/' element={<Home />} />
           <Route path='/Careers' element={<Careers />} />
           <Route path='/OurTeam' element={<OurTeam />} />
-          <Route path='/IndustryPartners' element={<IndustryPartners />} />
+          <Route path='/IndustryPartners' element={<Partners />} />
           <Route path='/Lubbock' element={<Lubbock />} />
-          <Route path='/AllJobs' element={<AllJobs />} />
-          <Route path='/Education' element={<Education />} />
+          <Route path='/Work/AllWork' element={<AllJobs />} />
+          <Route path='/Work/Education' element={<Education />} />
+          <Route path='/Work/Medical' element={<Medical />} />
+          <Route path='/Work/Restaurants' element={<Restaurants />} />
+          <Route path='/Work/Retail' element={<Retail />} />
+          <Route path='/Work/TennantFinishOuts' element={<Tennant />} />
           <Route path='/Lubbock/GuadalupeVillas' element={<Guadalupe />} />
           <Route path='/Lubbock/AdventurePark' element={<AdventurePark />} />
           <Route path='/Lubbock/UMC-Family&ChildrensClinic' element={<Umcp />} />

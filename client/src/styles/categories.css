@@ -1,8 +1,67 @@
+
 .categories-container-main {
-    display: flex;
     flex-grow: 1;
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.categories-container-title {
+    display: flex;
+    -webkit-text-stroke: 1px red;
+    color: black;
+
 }
 
 .categories-container-category {
-   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
+
+.categories-container-job {
+    display: flex;
+    flex-direction: column;
+}
+
+.category-box {
+    --s: 250px;   /* the size of the image */
+    --b: 8px;     /* the border thickness*/
+    --g: 14px;    /* the gap */
+    --c: red; /* the color */
+    
+    width: var(--s);
+    aspect-ratio: 1;
+    outline: calc(var(--s)/2) solid rgba(116, 114, 125, 0.6);
+    outline-offset: calc(var(--s)/-2);
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 30px;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+
+.category-box:hover {
+    outline: var(--b) solid var(--c);
+    outline-offset: var(--g);
+  }
+
+/* Hiding name on hover */
+.offset-heading {
+    position: relative;
+    vertical-align: middle;
+    z-index: 1; /* Set a higher z-index than the image to make it appear in front */
+    transition: opacity 0.5s ease-out; /* Add a transition effect to the opacity property */
+    top: 0px;
+  }
+  
+.hidden {
+    opacity: 0; /* Set the opacity to 0 to hide the element */
+  }

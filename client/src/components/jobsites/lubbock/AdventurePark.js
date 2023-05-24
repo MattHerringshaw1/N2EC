@@ -23,6 +23,7 @@ function AdventurePark() {
     <div className='container-jobsite-main'>
         <div className='container-title'>
             <h1>Adventure Park</h1>
+            <h3>Lubbock, TX</h3>
         </div>
         <div className='container-jobsite'>
             <div className='box-jobsite'>

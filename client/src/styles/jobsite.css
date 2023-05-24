@@ -2,17 +2,19 @@
   
   display: flex;
   width: 100%;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   flex-grow: 1;
 }
 
 .container-title {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    align-items: center;
     color: black;
 	-webkit-text-stroke: 1px red;
+  flex-direction: column;
 
 }
 
@@ -39,12 +41,11 @@
     /* border-radius: 10px; */
     
   }
-  .box-jobsite:hover {
+
+.box-jobsite:hover {
     outline: var(--b) solid var(--c);
     outline-offset: var(--g);
   }
   
-  /* .box-jobsite +  {
-    border-radius: 50%;
-  } */
+
 

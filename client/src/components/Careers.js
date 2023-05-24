@@ -40,10 +40,14 @@ function Careers() {
                 
                     {/* <button><a href="mailto: kim@n2ec.com" >Apply Today!</a></button> */}
                 </div>
-                <div>
-                    <Button variant="dark" >TDLR links</Button>
-                    <Button variant="dark" >Renew License</Button>
-                </div>
+                {/* <div className='container-careers-links'>
+                    <div className='container-careers-link'>
+                    <Button href='https://www.tdlr.texas.gov/electricians/renew/' variant="dark" >TDLR Links</Button>
+                    </div>
+                    <div className='container-careers-link'>
+                    <Button href='https://www.tdlr.texas.gov/electricians/renew/' variant="dark" >Renew License</Button>
+                    </div>
+                </div> */}
             </div>
         </>
     )

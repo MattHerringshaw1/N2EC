@@ -25,3 +25,22 @@
 .container-careers-main Button {
     margin: 5%;
 }
+
+.container-careers-links {
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+
+}
+
+.container-careers-link {
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+
+}
+
+.container-careers-link Button {
+
+    width: 400px;
+}

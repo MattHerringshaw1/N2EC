@@ -22,29 +22,11 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-
-}
-
-.container-job {
-  /* background-color: darkgray; */
-  position: relative; 
-
-  /* Make the container a relative positioning context */
 }
 
 
-.offset-heading {
-  position: relative;
-  vertical-align: middle;
-  z-index: 1; /* Set a higher z-index than the image to make it appear in front */
-  transition: opacity 0.5s ease-out; /* Add a transition effect to the opacity property */
-  top: 0px;
-  
-}
 
-.hidden {
-  opacity: 0; /* Set the opacity to 0 to hide the element */
-}
+
 
 .box-lbk {
   --s: 250px;   /* the size of the image */
@@ -69,9 +51,7 @@ body {
   outline-offset: var(--g);
 }
 
-.box-lbk +  {
-  border-radius: 50%;
-}
+
 
 
 

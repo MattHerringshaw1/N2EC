@@ -3,6 +3,8 @@ import '../styles/footer.css'
 
 function Footer(props) {
 
+    const isMobileView = window.innerWidth <= 768; // Define the breakpoint for mobile view
+
 
     return(
         <div className='footer-inline'>
@@ -37,7 +39,12 @@ function Footer(props) {
                                 </svg>
                                 </a>
                             </div>
-                            <div className='item-info'>
+                            <div 
+                           
+                            style={{ display: isMobileView ? 'none' : 'flex' }}
+                                
+                                className='item-info'>
+                                
                                 <a href="geo:33.58425,101.84220" >
                                     <h5> N2 Electrical Contractors 
                                     <br></br>

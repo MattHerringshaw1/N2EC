@@ -1,4 +1,5 @@
-.partners-container-main {
+
+.all-jobs-container-main {
     flex-grow: 1;
 
     width: 100%;
@@ -9,14 +10,14 @@
     flex-direction: column;
 }
 
-.partners-container-title {
+.all-jobs-container-title {
     display: flex;
     -webkit-text-stroke: 1px red;
     color: black;
 
 }
 
-.partners-container-category {
+.all-jobs-container-category {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -24,7 +25,8 @@
     justify-content: center;
 }
 
-.partners-container-job {
+.all-jobs-container-job {
     display: flex;
     flex-direction: column;
 }
+

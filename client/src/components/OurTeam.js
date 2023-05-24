@@ -104,7 +104,7 @@ function OurTeam(props) {
                                 <img 
                                 style={{ width: '70%', height: 'auto' }} 
                                 src={logo} alt=''></img>
-                            </div> */}
+                            </div> */} 
                             <div className="contact-info-container">
                                 <h5>Nick Holloway</h5>
                                 <i><p>President \ Owner</p></i>
