@@ -1,7 +1,7 @@
 
 // import lubbockStar from '../images/lubbock/lubbock-star.jpeg'
 // import dallasStar from '../images/dallas/dallas-star.jpeg'
-import { NavLink } from 'react-router-dom'
+// import { NavLink } from 'react-router-dom'
 import '../styles/home.css'
 import logo from '../images/logo1.png'
 // import JobsSlider from './JobsSlider'
@@ -51,10 +51,10 @@ function Home() {
                 
             
           
-        <div className="navlinks-container">
+        {/* <div className="navlinks-container">
             <NavLink to="/Dallas" className="navlink">Dallas Jobs</NavLink>
             <NavLink to="/Lubbock" className="navlink">Lubbock Jobs</NavLink>
-        </div>
+        </div> */}
 
             {/* <JobsSlider /> */}
      

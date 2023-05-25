@@ -4,6 +4,8 @@
     flex-direction: column;
     align-items: center;
     flex-grow: 1;
+    margin-bottom: 2%;
+
 }
 
 .container-careers-intro {
@@ -22,9 +24,6 @@
     margin-top: 1%;
 }
 
-.container-careers-main Button {
-    margin: 5%;
-}
 
 .container-careers-links {
     display: flex;
@@ -40,7 +39,3 @@
 
 }
 
-.container-careers-link Button {
-
-    width: 400px;
-}

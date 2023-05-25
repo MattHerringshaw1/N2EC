@@ -1,13 +1,15 @@
+import { NavLink } from 'react-router-dom';
 import '../styles/footer.css'
 
 
 function Footer(props) {
 
-    const isMobileView = window.innerWidth <= 768; // Define the breakpoint for mobile view
+    // const isMobileView = window.innerWidth <= 768; // Define the breakpoint for mobile view
 
 
     return(
-        <div className='footer-inline'>
+        <>
+        {/* <div className='footer-inline'>
             <div className="footer">
                 <div className='footer-copyright'>
                     <h5>© Copyright to N2 Electrical Contractors | Designed and Managed by 
@@ -40,9 +42,7 @@ function Footer(props) {
                                 </a>
                             </div>
                             <div 
-                           
-                            style={{ display: isMobileView ? 'none' : 'flex' }}
-                                
+                                style={{ display: isMobileView ? 'none' : 'flex' }}
                                 className='item-info'>
                                 
                                 <a href="geo:33.58425,101.84220" >
@@ -61,7 +61,110 @@ function Footer(props) {
                     
                 </div>
             </div>
+        </div> */}
+
+
+<div className='footer-inline'>
+        <div className='footer'>
+            <div className='sb_footer section_padding'>
+                <div className='sb_footer-links'>
+                    <div className='sb_footer-links-div'>
+                        <h5>Company</h5>
+                        <NavLink className='footer_navlink' to='/Work/AllWork'>
+                            <p>Our Work</p>
+                        </NavLink>
+                        <NavLink className='footer_navlink' to='/Careers'>
+                            <p>Careers</p>
+                        </NavLink>
+                        <NavLink className='footer_navlink' to='/OurTeam'>
+                            <p>Contact Us</p>
+                        </NavLink>
+                    </div>
+                    <div className='sb_footer-links-div'>
+                        <h5>Resources</h5>
+                        <a className='footer_a' href='https://www.tdlr.texas.gov/electricians/renew/'>
+                            <p>License Renewal</p>
+                        </a>
+                        <a className='footer_a' href='/employer'>
+                            <p>TDLR Links</p>
+                        </a>
+                        <a className='footer_a' href='/employer'>
+                            <p>TDLR Links</p>
+                        </a>
+                    </div>
+                    <div className='sb_footer-links-div'>
+                        <h5>Partners</h5>
+                        <a className='footer_a' href='https://henthorncommercialconstruction.com/'>
+                            <p>Henthorn Construction</p>                            
+                        </a>
+                        <a className='footer_a' href='https://www.leelewis.com/'>
+                            <p>Lee Lewis Construction</p>
+                        </a>
+                        <a className='footer_a' href='https://www.tegrity-contractors.com/'>
+                            <p>Tegrity Contractors</p>
+                        </a>
+                        <a className='footer_a' href='https://teinert.com/'>
+                            <p>Teinert Construction</p>
+                        </a>
+                        <a className='footer_a' href='https://wrclubbock.com/'>
+                            <p>W.R. Construction</p>
+                        </a>
+                        
+                        
+                    </div>
+                    <div className='sb_footer-links-div'>
+                        <h5>Headquarters</h5>
+                        
+                        
+                            <div 
+                                // style={{ display: isMobileView ? 'none' : 'flex' }}
+                                // className='item-info'
+                                >
+                                
+                                <a className='footer_a'  href="geo:33.58425,101.84220" >
+                                    <p>N2 Electrical Contractors</p>
+                                    <p>701 Broadway Street</p>
+                                    <p>Lubbock, TX 79401</p>
+                                    
+                                </a>
+                                <a className='footer_a'  href='tel:+1-806-993-0024'>
+                                    <p>+1 (806) 993-0024</p>
+                                </a>
+                            </div>
+
+                        {/* <a href='/employer'>
+                            <p>Employer</p>
+                        </a>
+                        <a href='/employer'>
+                            <p>Employer</p>
+                        </a>
+                        <a href='/employer'>
+                            <p>Employer</p>
+                        </a> */}
+                        </div>
+                    </div>
+
+                <hr></hr>
+
+                <div className='sb_footer-below'>
+                    <div className='sb_footer-copyright'>
+                        <p>
+                            ©{new Date().getFullYear()} Copyright to N2 Electrical Contractors | Designed and Managed by 
+                        <a className='footer_a' href="https://matthewherringshaw.com/"> MCH</a> 
+                        </p>
+                    </div> 
+                    {/* <div className='sb_footer-below-links'>
+                        <a href='/terms'><div><p>Terms & Conditions</p></div></a>
+                        <a href='/terms'><div><p>Terms & Conditions</p></div></a>
+                        <a href='/terms'><div><p>Terms & Conditions</p></div></a>
+                        <a href='/terms'><div><p>Terms & Conditions</p></div></a>
+                    </div> */}
+                </div> 
+            </div>
+            </div>
+
         </div>
+    </>
     )
 }
 
