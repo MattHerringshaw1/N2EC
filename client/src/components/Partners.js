@@ -1,28 +1,32 @@
 import '../styles/partners.css'
 import { useState } from 'react'
-import { NavLink } from 'react-router-dom'
+// import { NavLink } from 'react-router-dom'
 
-import dominos from '../images/lubbock/dominos/logo.jpeg'
-import elMitote from '../images/lubbock/el-mitote/logo.jpeg'
-import lasBrisas from '../images/lubbock/las-brisas/logo.jpeg'
-import twinPeaks from '../images/lubbock/twin-peaks/logo.jpeg'
-import table82 from '../images/lubbock/table82/logo.jpeg'
+import henthorn from '../images/partners/henthorn.png'
+import leelewis from '../images/partners/leelewis.png'
+import tegrity from '../images/partners/tegrity.png'
+import teinert from '../images/partners/teinert.png'
+import wrc from '../images/partners/wrc.png'
+import crawford from '../images/partners/crawford.png'
+import elliot from '../images/partners/elliot.png'
 
  
 
 
 function Partners() {
 
-    const [isHoveredDominos, setIsHoveredDominos] = useState(false);
-    const [isHoveredMitote, setIsHoveredMitote] = useState(false);
-    const [isHoveredLasBrisas, setIsHoveredLasBrisas] = useState(false);
-    const [isHoveredTwin, setIsHoveredTwin] = useState(false);
-    const [isHoveredTable82, setIsHoveredTable82] = useState(false);
+    const [isHoveredHenthorn, setIsHoveredHenthorn] = useState(false);
+    const [isHoveredLeeLewis, setIsHoveredLeeLewis] = useState(false);
+    const [isHoveredTegrity, setIsHoveredTegrity] = useState(false);
+    const [isHoveredTeinert, setIsHoveredTeinert] = useState(false);
+    const [isHoveredWRC, setIsHoveredWRC] = useState(false);
+    const [isHoveredCrawford, setIsHoveredCrawford] = useState(false);
+    const [isHoveredElliot, setIsHoveredElliot] = useState(false);
    
 
     return(
         <>
-        <div className="container-partners-main">
+        {/* <div className="container-partners-main">
                 <div>
                     Our Services:
                 </div>
@@ -30,7 +34,7 @@ function Partners() {
                     <p>Send bid invites to:</p>
                     <a href="mailto: kim@n2ec.com" >Kim Cargill</a>
                 </div>
-            </div>
+            </div> */}
 
 
 
@@ -42,70 +46,70 @@ function Partners() {
                     
                     <div className="partners-container-category">
                         <div className='partners-container-job'>
-                            <NavLink style={{ textDecoration: 'none', color:'black' }} to='/Work/Education'>
+                            <a style={{ textDecoration: 'none', color:'black' }} href='https://henthorncommercialconstruction.com/'>
                                 <div className='category-box'>
-                                    <img width={250} height={250} src={dominos} alt="" 
-                                        onMouseEnter={() => setIsHoveredDominos(true)}
-                                        onMouseLeave={() => setIsHoveredDominos(false)}
+                                    <img width={250} height={250} src={henthorn} alt="" 
+                                        onMouseEnter={() => setIsHoveredHenthorn(true)}
+                                        onMouseLeave={() => setIsHoveredHenthorn(false)}
                                     />
-                                    <div className={`offset-heading ${isHoveredDominos ? 'hidden' : ''}`}>
-                                        <h4>Education</h4>
+                                    <div className={`offset-heading ${isHoveredHenthorn ? 'hidden' : ''}`}>
+                                        <h4>Henthorn Construction</h4>
                                     </div>
                                 </div>
-                            </NavLink> 
+                            </a> 
                         </div>
                        
                         <div className='container-job'>
-                            <NavLink style={{ textDecoration: 'none', color:'black' }} to='/Work/Medical'>
+                            <a style={{ textDecoration: 'none', color:'black' }} href='https://www.leelewis.com/'>
                                 <div className='category-box'>
-                                    <img width={250} height={250} src={elMitote} alt="" 
-                                    onMouseEnter={() => setIsHoveredMitote(true)}
-                                    onMouseLeave={() => setIsHoveredMitote(false)}
+                                    <img width={250} height={250} src={leelewis} alt="" 
+                                    onMouseEnter={() => setIsHoveredLeeLewis(true)}
+                                    onMouseLeave={() => setIsHoveredLeeLewis(false)}
                                     />
-                                    <div className={`offset-heading ${isHoveredMitote ? 'hidden' : ''}`}>
-                                        <h4>Medical</h4>
+                                    <div className={`offset-heading ${isHoveredLeeLewis ? 'hidden' : ''}`}>
+                                        <h4>Lee Lewis Construction</h4>
                                     </div>
                                 </div>
-                            </NavLink> 
+                            </a> 
                         </div>
                         <div className='container-job'>
-                            <NavLink style={{ textDecoration: 'none', color:'black' }} to='/Work/Restaurants'>
+                            <a style={{ textDecoration: 'none', color:'black' }} href='https://www.tegrity-contractors.com/'>
                                 <div className='category-box'>
-                                    <img width={250} height={250} src={lasBrisas} alt="" 
-                                        onMouseEnter={() => setIsHoveredLasBrisas(true)}
-                                        onMouseLeave={() => setIsHoveredLasBrisas(false)}
+                                    <img width={250} height={250} src={tegrity} alt="" 
+                                        onMouseEnter={() => setIsHoveredTegrity(true)}
+                                        onMouseLeave={() => setIsHoveredTegrity(false)}
                                     />
-                                    <div className={`offset-heading ${isHoveredLasBrisas ? 'hidden' : ''}`}>
-                                        <h4>Restaurants</h4>
+                                    <div className={`offset-heading ${isHoveredTegrity ? 'hidden' : ''}`}>
+                                        <h4>Tegrity Contractors</h4>
                                     </div>
                                 </div>
-                            </NavLink> 
+                            </a> 
                         </div>
                         <div className='container-job'>
-                            <NavLink style={{ textDecoration: 'none', color:'black' }} to='/Work/Retail'>
+                            <a style={{ textDecoration: 'none', color:'black' }} href='https://teinert.com/'>
                                 <div className='box-lbk'>
-                                    <img width={250} height={250} src={table82} alt="" 
-                                        onMouseEnter={() => setIsHoveredTable82(true)}
-                                        onMouseLeave={() => setIsHoveredTable82(false)}
+                                    <img width={250} height={250} src={teinert} alt="" 
+                                        onMouseEnter={() => setIsHoveredTeinert(true)}
+                                        onMouseLeave={() => setIsHoveredTeinert(false)}
                                     />
-                                    <div className={`offset-heading ${isHoveredTable82 ? 'hidden' : ''}`}>
-                                        <h4>Retail</h4>
+                                    <div className={`offset-heading ${isHoveredTeinert ? 'hidden' : ''}`}>
+                                        <h4>Teinert Construction</h4>
                                     </div>
                                 </div>
-                            </NavLink> 
+                            </a> 
                         </div>
                         <div className='container-job'>
-                            <NavLink style={{ textDecoration: 'none', color:'black' }} to='/Work/TennantFinishOuts'>
+                            <a style={{ textDecoration: 'none', color:'black' }} href='https://wrclubbock.com/'>
                                 <div className='box-lbk'>
-                                    <img width={250} height={250} src={twinPeaks} alt="" 
-                                        onMouseEnter={() => setIsHoveredTwin(true)}
-                                        onMouseLeave={() => setIsHoveredTwin(false)}
+                                    <img width={250} height={250} src={wrc} alt="" 
+                                        onMouseEnter={() => setIsHoveredWRC(true)}
+                                        onMouseLeave={() => setIsHoveredWRC(false)}
                                     />
-                                    <div className={`offset-heading ${isHoveredTwin ? 'hidden' : ''}`}>
-                                        <h4>Tennant Finish-Outs</h4>
+                                    <div className={`offset-heading ${isHoveredWRC ? 'hidden' : ''}`}>
+                                        <h4>W.R. Construction</h4>
                                     </div>
                                 </div>
-                            </NavLink> 
+                            </a> 
                         </div>
                     </div>
 
@@ -116,30 +120,30 @@ function Partners() {
                     </div>
                     <div className="partners-container-category">
                         <div className='partners-container-job'>
-                            <NavLink style={{ textDecoration: 'none', color:'black' }} to='/Work/Education'>
+                            <a style={{ textDecoration: 'none', color:'black' }} href='https://www.crawfordelectricsupply.com/'>
                                 <div className='category-box'>
-                                    <img width={250} height={250} src={dominos} alt="" 
-                                        onMouseEnter={() => setIsHoveredDominos(true)}
-                                        onMouseLeave={() => setIsHoveredDominos(false)}
+                                    <img width={250} height={250} src={crawford} alt="" 
+                                        onMouseEnter={() => setIsHoveredCrawford(true)}
+                                        onMouseLeave={() => setIsHoveredCrawford(false)}
                                     />
-                                    <div className={`offset-heading ${isHoveredDominos ? 'hidden' : ''}`}>
-                                        <h4>Education</h4>
+                                    <div className={`offset-heading ${isHoveredCrawford ? 'hidden' : ''}`}>
+                                        <h4>Crawford Electric Supply</h4>
                                     </div>
                                 </div>
-                            </NavLink> 
+                            </a> 
                         </div>
                         <div className='container-job'>
-                            <NavLink style={{ textDecoration: 'none', color:'black' }} to='/Work/Medical'>
+                            <a style={{ textDecoration: 'none', color:'black' }} href='https://www.elliottelectric.com/locations/110/TX/Lubbock.aspx'>
                                 <div className='category-box'>
-                                    <img width={250} height={250} src={elMitote} alt="" 
-                                    onMouseEnter={() => setIsHoveredMitote(true)}
-                                    onMouseLeave={() => setIsHoveredMitote(false)}
+                                    <img width={250} height={250} src={elliot} alt="" 
+                                    onMouseEnter={() => setIsHoveredElliot(true)}
+                                    onMouseLeave={() => setIsHoveredElliot(false)}
                                     />
-                                    <div className={`offset-heading ${isHoveredMitote ? 'hidden' : ''}`}>
-                                        <h4>Medical</h4>
+                                    <div className={`offset-heading ${isHoveredElliot ? 'hidden' : ''}`}>
+                                        <h4>Elliot Ellectric Supply</h4>
                                     </div>
                                 </div>
-                            </NavLink> 
+                            </a> 
                         </div>
                     </div>
     
