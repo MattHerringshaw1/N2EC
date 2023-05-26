@@ -56,7 +56,7 @@ function Home() {
             <NavLink to="/Lubbock" className="navlink">Lubbock Jobs</NavLink>
         </div> */}
 
-            {/* <JobsSlider /> */}
+            <JobsSlider />
      
         </>
     )
